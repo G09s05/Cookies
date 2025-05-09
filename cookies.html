@@ -4,7 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Cookies - Munchies</title>
-    <link rel="stylesheet" href="style.css"> <!-- Make sure this path is correct -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cookie-item img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .cookie-item {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .cookie-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -27,20 +47,19 @@
             <div class="cookie-list">
                 <!-- Cookie 1 -->
                 <div class="cookie-item">
-                    <img src="https://www.simplyrecipes.com/thmb/ODP_YQBb4sB1hoWCbPCRP9dvaKw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Copycat-Subway-Chocolate-Chip-Cookies--8-a40444af559346edb461ff762eb7dabc.jpg" alt="Classic Chocolatechip">
+                    <img src="https://www.simplyrecipes.com/thmb/ODP_YQBb4sB1hoWCbPCRP9dvaKw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Copycat-Subway-Chocolate-Chip-Cookies--8-a40444af559346edb461ff762eb7dabc.jpg" alt="Chocolate Chip Cookie">
                     <h3>Chocolate Chip Cookies</h3>
-                    <p>Who doesn't love a Classic Chocolate Chip? I know we do!</p>
+                    <p>Who doesn't love a Classic Chocolate Chip? We know we do!</p>
                     <button type="button" onclick="addToCart('Chocolate Chip')">Add to Cart</button>
                 </div>
 
                 <!-- Cookie 2 -->
-<div class="cookie-item">
-    <img src="https://sallysbakingaddiction.com/wp-content/uploads/2013/12/red-velvet-cookies.jpg" alt="Red Velvet Cookie" style="width: 300px; height: auto;">
-    <h3>Red Velvet Cookies</h3>
-    <p>Enriched with natural food colouring,cocoa, and other delicious ingredient!</p>
-    <button type="button" onclick="addToCart('Red Velvet')">Add to Cart</button>
-</div>
-
+                <div class="cookie-item">
+                    <img src="https://sallysbakingaddiction.com/wp-content/uploads/2013/12/red-velvet-cookies.jpg" alt="Red Velvet Cookie">
+                    <h3>Red Velvet Cookies</h3>
+                    <p>Enriched with cocoa and a splash of red — irresistibly soft and chewy!</p>
+                    <button type="button" onclick="addToCart('Red Velvet')">Add to Cart</button>
+                </div>
 
                 <!-- Cookie 3 -->
                 <div class="cookie-item">
@@ -52,9 +71,9 @@
 
                 <!-- Cookie 4 -->
                 <div class="cookie-item">
-                    <img src="https://sallysbakingaddiction.com/wp-content/uploads/2022/07/double-chocolate-chip-cookies-recipe.jpg" alt="Chocolate Cookies">
+                    <img src="https://sallysbakingaddiction.com/wp-content/uploads/2022/07/double-chocolate-chip-cookies-recipe.jpg" alt="Double Chocolate Cookies">
                     <h3>Chocolate Cookies</h3>
-                    <p>Inspired by Charlie Chocolate Factory, this cookie will take you take you back into the fantasy.</p>
+                    <p>Inspired by Willy Wonka, this rich cookie is a fantasy in every bite!</p>
                     <button type="button" onclick="addToCart('Chocolate Cookies')">Add to Cart</button>
                 </div>
 
@@ -62,7 +81,7 @@
                 <div class="cookie-item">
                     <img src="https://www.foodnetwork.com/content/dam/images/food/fullset/2012/10/5/0/FN_Trisha-Yearwood-Snickerdoodles_s4x3.jpg" alt="Snickerdoodle Cookies">
                     <h3>Snickerdoodle Cookies</h3>
-                    <p>Soft, cinnamon cookies with a sweet sugar coating. The perfect balance of spice and sweetness!</p>
+                    <p>Soft, cinnamon-sugar cookies with a cozy flavor you'll love.</p>
                     <button type="button" onclick="addToCart('Snickerdoodle')">Add to Cart</button>
                 </div>
             </div>
@@ -73,6 +92,6 @@
         <p>© 2025 Munchies Cookie Co. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script> <!-- Make sure this path is correct -->
+    <script src="script.js"></script>
 </body>
 </html>
