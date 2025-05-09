@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Munchies</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Munchies 🍪</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="cookies.html">Shop Cookies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>About Munchies</h2>
+      <p><strong>Munchies</strong> is a sweet little cookie shop that started with a dream — and a lot of chocolate chips!</p>
+      
+      <p>We bake fresh, handmade cookies that warm your heart and melt in your mouth. From buttery classics to fun seasonal flavors, every batch is made with love, joy, and just the right amount of crunch.</p>
+      
+      <h3>Our Story</h3>
+      <p>It all started in a tiny kitchen where we experimented with grandma’s secret recipes. After countless batches (and happy taste tests), we decided to share the joy with the world — and Munchies was born!</p>
+
+      <h3>What Makes Us Special?</h3>
+      <ul>
+        <li>🍪 Freshly baked every morning</li>
+        <li>💖 Made with simple, wholesome ingredients</li>
+        <li>🎉 Fun, limited-time flavors each season</li>
+        <li>📦 Cute packaging for gifts and events</li>
+      </ul>
+
+      <p>Whether you're treating yourself or sharing with friends, Munchies cookies are always a good idea!</p>
+    </section>
+
+    <section class="button-area">
+      <button onclick="changeColor()">Change Background Color</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Munchies Cookie Co. Freshly baked with love.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
