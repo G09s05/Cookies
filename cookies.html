@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Cookies - Munchies</title>
+    <link rel="stylesheet" href="style.css"> <!-- Make sure this path is correct -->
+</head>
+<body>
+    <header>
+        <h1>Munchies 🍪</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="cookies.html" class="active">Shop Cookies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cookies">
+            <h2>Our Delicious Cookies</h2>
+            <p>At Munchies, we bake only the finest cookies using the best ingredients. Explore our wide variety of mouthwatering flavors, from classic to creative, all made fresh to order!</p>
+
+            <div class="cookie-list">
+                <!-- Cookie 1 -->
+                <div class="cookie-item">
+                    <img src="images/chocolate-chip.jpg" alt="Chocolate Chip Cookies">
+                    <h3>Chocolate Chip Cookies</h3>
+                    <p>Our signature cookie with gooey chocolate chips in every bite! Classic, comforting, and simply irresistible.</p>
+                    <button type="button" onclick="addToCart('Chocolate Chip')">Add to Cart</button>
+                </div>
+
+                <!-- Cookie 2 -->
+                <div class="cookie-item">
+                    <img src="images/peanut-butter.jpg" alt="Peanut Butter Cookies">
+                    <h3>Peanut Butter Cookies</h3>
+                    <p>Rich, soft, and packed with peanut butter flavor. The perfect treat for peanut butter lovers!</p>
+                    <button type="button" onclick="addToCart('Peanut Butter')">Add to Cart</button>
+                </div>
+
+                <!-- Cookie 3 -->
+                <div class="cookie-item">
+                    <img src="images/oatmeal-raisin.jpg" alt="Oatmeal Raisin Cookies">
+                    <h3>Oatmeal Raisin Cookies</h3>
+                    <p>Chewy, hearty, and filled with sweet raisins. A classic you can’t go wrong with!</p>
+                    <button type="button" onclick="addToCart('Oatmeal Raisin')">Add to Cart</button>
+                </div>
+
+                <!-- Cookie 4 -->
+                <div class="cookie-item">
+                    <img src="images/sugar-cookies.jpg" alt="Sugar Cookies">
+                    <h3>Sugar Cookies</h3>
+                    <p>Light and delicate with a sprinkle of sugar. Perfect for any occasion, sweet and simple.</p>
+                    <button type="button" onclick="addToCart('Sugar Cookies')">Add to Cart</button>
+                </div>
+
+                <!-- Cookie 5 -->
+                <div class="cookie-item">
+                    <img src="images/snickerdoodle.jpg" alt="Snickerdoodle Cookies">
+                    <h3>Snickerdoodle Cookies</h3>
+                    <p>Soft, cinnamon-spiced cookies with a sweet sugar coating. The perfect balance of spice and sweetness!</p>
+                    <button type="button" onclick="addToCart('Snickerdoodle')">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Munchies Cookie Co. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Make sure this path is correct -->
+</body>
+</html>
